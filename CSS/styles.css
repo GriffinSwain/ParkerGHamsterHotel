@@ -1,24 +1,38 @@
+@media screen and (min-width: 1201px) {
+
+    
 .Borders {
     color: #000324;
     background-color: #000324;
+    width: 205vh;   
+}
+
+.BottomBorder {
+    color: #000324;
+    background-color: #000324;
+    width: 205vh;
+    height: 300px;
+    margin-left: -23.4%;
+    
 }
 
 .Background {
     object-fit: cover;
     justify-content: center;
-    min-width: 200vh;
+    min-width: 207vh;
     height: 738px;
 }
 
 .Background2{
     object-fit: cover;
     justify-content: center;
-    min-width: 200vh;
-    height: 548px;
+    min-width: 207vh;
+    height: 600px;
+    margin-left: -7px;
 }
 
-.SquareCards {
-    
+.Flex {
+    justify-items: baseline;
 }
 
 .InfoBox {
@@ -32,6 +46,15 @@
     height: 232px;
 }
 
+.InfoBox2 {
+    color: #E5FEFF;
+    background-color: #000324;
+    position: absolute;
+    width: 1345px;
+    height: 200px;
+    
+}
+
 .InfoText {
     text-align: center;
     font-family: 'Dosis', sans-serif;
@@ -41,6 +64,38 @@
     opacity: 1;
     margin-top: 8%;
 }
+.InfoText2 {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+    letter-spacing: 0px;
+    color: #E5FEFF;
+    opacity: 1;
+    margin-top: 4%;
+    position: absolute;
+}
+
+.InfoText3 {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+    letter-spacing: 0px;
+    color: #E5FEFF;
+    opacity: 1;
+    margin-top: 4%;
+    position: absolute;
+}
+
+
+.InfoTextSmall{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0px;
+    color: #E5FEFF;
+    opacity: 1;
+    margin-top: 8%;
+    position: absolute;
+}
 
 .FirstCard{
     margin-left: -45%;
@@ -49,18 +104,24 @@
     border: #00032400;
     border-radius: 0%;
     height: 61.5%;
+    position:absolute;
+    width: 20%;
 }
 .SecondCard{
     margin-top: 5%;
     border: #00032400;
     border-radius: 0%;
     height: 61.5%;
+    position:absolute;
+    width: 20%;
 }
 .ThirdCard{
     margin-right: -45%;
     margin-top: 5%;
     border: #00032400;
     border-radius: 0%;
+    position:absolute;
+    width: 20%;
 }
 
 .List{
@@ -74,15 +135,15 @@
 }
 
 .Header {
-    width: 203vh;
-    height: 585px;
+    width: 205vh;
+    height: 500px;
     object-fit: cover; 
 } 
 
 .Logo {
     width: 185px;
     height: 130px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .NavText {
@@ -106,6 +167,7 @@ p {
     width: 420px;
     height: 440px;
     object-fit: cover;
+    margin-left: -30%;
 }
 
 .PA {
@@ -118,6 +180,12 @@ p {
     object-fit: cover;
 }
 
+.Packages2{
+    height: 30vh;
+    width: 150vh;
+    object-fit: cover;
+}
+
 .SourceSans {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -125,3 +193,974 @@ p {
 .Dosis {
     font-family: 'Dosis', sans-serif;
 }
+
+.Amenities{
+    position: absolute;
+    margin-top: 15%;
+    width:150px;
+    height: 100px;
+}
+.AmenitiesValet{
+    position: absolute;
+    width: 120px; 
+    height: 130px;
+    margin-top: 14%;
+}
+
+.AmenitiesInfo{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    color: #ffffff;
+    opacity: 1;
+    margin-top: 22%;
+    margin-left: -2%;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.StinkyInputField{
+    margin-top: 70%;
+    position:absolute;
+    margin-right: 0%;
+    margin-left: 20%;
+    border-radius: 0%;
+}
+
+.ReserveRoom{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1px;
+    color: #ffffff;
+    opacity: 1;
+    margin-left: -15%;
+    margin-top: 1%;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.InputInfo{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    color: #ffffff;
+    opacity: 1;
+    margin-top: 55%;
+    position: absolute;
+}
+
+.SquareButton{
+    position: absolute;
+    border: 0%;
+    background-color: #006EDB;
+    color:#ffffff;
+    width: 200px;
+    height: 42.5px;
+    margin-top: 134.5px;
+    margin-left: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.HamsterSeed {
+    position: absolute;
+    
+    width: 1369px;
+    height: 700px;
+    margin-left: -.6%;
+}
+}
+
+@media screen and (min-width: 1001px) {
+    .Borders {
+        color: #000324;
+        background-color: #000324;
+        width: 211vh;   
+    }
+    
+    .BottomBorder {
+        color: #000324;
+        background-color: #000324;
+        width: 240vh;
+        height: 300px;
+        padding-right: -23.4%;
+        
+    }
+    
+    .Background {
+        object-fit: cover;
+        justify-content: center;
+        min-width: 207vh;
+        height: 738px;
+    }
+    
+    .Background2{
+        object-fit: cover;
+        justify-content: center;
+        min-width: 220vh;
+        height: 600px;
+    }
+    
+    .Flex {
+        justify-items: baseline;
+    }
+    
+    .InfoBox {
+        color: #E5FEFF;
+        opacity: 80%;
+        background-color: #000324;
+        position: absolute;
+        top: 250px;
+        left: 340px;
+        width: 945px;
+        height: 232px;
+    }
+    
+    .InfoBox2 {
+        color: #E5FEFF;
+        background-color: #000324;
+        position: absolute;
+        width: 1345px;
+        height: 200px;
+        
+    }
+    
+    .InfoText {
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: 45px;
+        letter-spacing: 0px;
+        color: #E5FEFF;
+        opacity: 1;
+        margin-top: 8%;
+    }
+    .InfoText2 {
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: 45px;
+        letter-spacing: 0px;
+        color: #E5FEFF;
+        opacity: 1;
+        margin-top: 4%;
+        position: absolute;
+    }
+    
+    .InfoText3 {
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: 45px;
+        letter-spacing: 0px;
+        color: #E5FEFF;
+        opacity: 1;
+        margin-top: 4%;
+        position: absolute;
+    }
+    
+    
+    .InfoTextSmall{
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 0px;
+        color: #E5FEFF;
+        opacity: 1;
+        margin-top: 8%;
+        position: absolute;
+    }
+    
+    .FirstCard{
+        margin-left: -45%;
+        margin-top: 5%;
+        border: #00032400;
+        border-radius: 0%;
+        height: 76%;
+        position:absolute;
+        width: 20%;
+    }
+    .SecondCard{
+        margin-top: 5%;
+        border: #00032400;
+        border-radius: 0%;
+        height: 76%;
+        position:absolute;
+        width: 20%;
+    }
+    .ThirdCard{
+        margin-right: -45%;
+        margin-top: 5%;
+        border: #00032400;
+        border-radius: 0%;
+        position:absolute;
+        width: 20%;
+    }
+    
+    .List{
+        align-self: flex-start ;
+    }
+    
+    .card-img-top {
+        width: 100%;
+        height: 10vw;
+        object-fit: none;
+    }
+    
+    .Header {
+        width: 211vh;
+        height: 500px;
+        object-fit: cover; 
+    } 
+    
+    .Logo {
+        width: 185px;
+        height: 130px;
+        margin-top: 5px;
+    }
+    
+    .NavText {
+        color: #ffffff;
+        font-family: 'Dosis', sans-serif;
+        font-size: x-large;
+    
+    }
+    
+    .a {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #E5FEFF;
+        font-size: 16px;
+    }
+    
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .cropped {
+        width: 420px;
+        height: 440px;
+        object-fit: cover;
+        margin-left: 20%;
+    }
+    
+    .PA {
+        position: absolute;
+    }
+    
+    .Packages{
+        height: 30vh;
+        width: 150vh;
+        object-fit: cover;
+    }
+    
+    .Packages2{
+        height: 30vh;
+        width: 150vh;
+        object-fit: cover;
+    }
+    
+    .SourceSans {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .Dosis {
+        font-family: 'Dosis', sans-serif;
+    }
+    
+    .Amenities{
+        position: absolute;
+        margin-top: 15%;
+        width:150px;
+        height: 100px;
+    }
+    .AmenitiesValet{
+        position: absolute;
+        width: 120px; 
+        height: 130px;
+        margin-top: 13%;
+    }
+    
+    .AmenitiesInfo{
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 1px;
+        color: #ffffff;
+        opacity: 1;
+        margin-top: 22%;
+        margin-left: -2%;
+        white-space: nowrap;
+        position: absolute;
+    }
+    
+    .StinkyInputField{
+        margin-top: 70%;
+        position:absolute;
+        margin-right: 0%;
+        margin-left: 20%;
+        border-radius: 0%;
+    }
+    
+    .ReserveRoom{
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        letter-spacing: 1px;
+        color: #ffffff;
+        opacity: 1;
+        margin-left: -15%;
+        margin-top: 1%;
+        white-space: nowrap;
+        position: absolute;
+    }
+    
+    .InputInfo{
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 1px;
+        color: #ffffff;
+        opacity: 1;
+        margin-top: 55%;
+        position: absolute;
+    }
+    
+    .SquareButton{
+        position: absolute;
+        border: 0%;
+        background-color: #006EDB;
+        color:#ffffff;
+        width: 200px;
+        height: 42.5px;
+        margin-top: 134.5px;
+        margin-left: 50px;
+        font-family: 'Source Sans Pro', sans-serif;
+        
+    }
+    
+    .HamsterSeed {
+        position: absolute;
+        
+        width: 1369px;
+        height: 700px;
+        margin-left: -.6%;
+    }
+    }
+
+ @media screen and (min-width: 700px) and (max-width: 999px) {
+    
+    .Awards{
+        padding-right: 77%;
+        margin-bottom: -50%;
+        margin-left: -40%;
+        position: absolute;
+    }
+    .Borders {
+        color: #000324;
+        background-color: #000324;
+        width: 100vh;  
+    }
+    .BottomBorder{
+        color: #000324;
+        background-color: #000324;
+        height: 350px;
+        width: 950px;
+
+    }
+    
+    .Background {
+        object-fit: cover;
+        justify-content: center;
+        min-width: 120vh;
+        margin-top: 5%;
+        height: 800px;
+    }
+    
+    .Background2{
+        object-fit: cover;
+        justify-content: center;
+        min-width: 120vh;
+        height: 350px;
+    }
+    
+    .InfoBox {
+        color: #E5FEFF;
+        opacity: 80%;
+        background-color: #000324;
+        position: absolute;
+        top: 115px;
+        left: 225px;
+        width: 250px;
+        height: 75px;
+        margin-left: -5%;
+    }
+    
+    .InfoBox2 {
+        color: #E5FEFF;
+        background-color: #000324;
+        position: absolute;
+        margin-right: 10%;
+        width: 1345px;
+        height: 225px;
+    }
+    
+    .InfoText {
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: medium;
+        letter-spacing: 0px;
+        color: #E5FEFF;
+        opacity: 1;
+        margin-top: 8%;
+    }
+    .InfoText2 {
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: 45px;
+        letter-spacing: 0px;       
+        color: #E5FEFF;
+        opacity: 1;
+        margin-left: 30%;
+        position: absolute;
+    }
+
+    .InfoText3 {
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: 45px;
+        letter-spacing: 0px;       
+        color: #E5FEFF;
+        opacity: 1;
+        position: absolute;
+    }
+    
+    .InfoTextSmall{
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 0px;
+        color: #E5FEFF;
+        opacity: 1;
+        margin-top: 8%;
+        position: absolute;
+    }
+    
+    .FirstCard{
+        margin-left: -65%;
+        margin-top: 15%;
+        border: #00032400;
+        border-radius: 0%;
+        height: 90%;
+        width: 20%;
+        position:absolute;
+    }
+    .SecondCard{
+        margin-top: 15%;
+        border: #00032400;
+        border-radius: 0%;
+        height: 105%;
+        width: 20%;
+        margin-right: 17%;
+        position:absolute;
+    }
+    .ThirdCard{
+        margin-right: -30%;
+        margin-top: 15%;
+        height: 122%;
+        width: 20%;
+        border: #00032400;
+        border-radius: 0%;
+        position:absolute;
+    }
+    
+    .List{
+        align-self: flex-start ;
+    }
+    
+    .card-img-top {
+        width: 100%;
+        height: 5vw;
+        object-fit: none;
+    }
+    
+    .Header {
+        width: 100vh;
+        height: 150px;
+        object-fit: cover; 
+    } 
+
+    .HamsterInfo{
+        margin-right: 40%;
+    }
+    
+    .Logo {
+        width: 90px;
+        height: 65px;
+        margin-top: 5px;
+    }
+    
+    .NavText {
+        color: #ffffff;
+        font-family: 'Dosis', sans-serif;
+        font-size: x-small;
+    
+    }
+    
+    a {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #E5FEFF;
+        font-size: 8px;
+    }
+    
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .cropped {
+        width: 240px;
+        height: 375px;
+        object-fit: cover;
+        margin-top: -55%;
+        position: absolute;
+    }
+    
+    .PA {
+        position: absolute;
+    }
+    
+    .Packages{
+        height: 20vh;
+        width: 25vh;
+        object-fit: cover;
+        margin-left: -50%;
+    }
+    .Packages2{
+        height: 20vh;
+        width: 25vh;
+        object-fit: cover;
+        margin-left: -100%; 
+        margin-top: 5%;
+    }
+
+    .PackagesText{
+        font-size: medium;
+        width: 50%;
+        margin-left: -25%;
+        position: absolute;
+    }
+
+    .PackagesText2{
+        margin-left: -25%;
+        margin-top: 5%;
+        width: 50%;
+        position: absolute;
+        font-size: xx-small;
+    }
+
+    .PackagesText3{
+        font-size: medium;
+        width: 50%;
+        position: absolute;
+    }
+
+    .PackagesText4{
+
+        width: 50%;
+        margin-top: 3%;
+        position: absolute;
+        font-size: xx-small;
+        padding-right: 20%;
+    }
+
+    .PackagesText5{
+
+        width: 50%;
+        position: absolute;
+        font-size: xx-small;
+    }
+
+    .PackagesTextTitle{
+        margin-top:-3%
+    }
+    
+    .SourceSans {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .Dosis {
+        font-family: 'Dosis', sans-serif;
+    }
+    
+    .Amenities{
+        position: absolute;
+        margin-top: 25%;
+        width:150px;
+        height: 100px;
+    }
+    
+    .AmenitiesValet{
+        width: 120px; 
+        height: 130px;
+        margin-top: 22%;
+        position: absolute;
+        margin-left: 2%;
+    }
+    
+    .AmenitiesInfo{
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 1px;
+        color: #ffffff;
+        opacity: 1;
+        margin-top: 19%;
+        
+        white-space: nowrap;
+        position: absolute;
+        font-size: small;
+    }
+    
+    .StinkyInputField{
+        margin-top: 180%;
+        position:absolute;
+        border-radius: 0%;
+    }
+    
+    .ReserveRoom{
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        letter-spacing: 1px;
+        color: #ffffff;
+        opacity: 1;
+        
+        margin-top: 1%;
+        white-space: nowrap;
+        position: absolute;
+    }
+
+    .Reserve{
+        margin-left: 15%;
+    }
+    
+    .InputInfo{
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 1px;
+        color: #ffffff;
+        opacity: 1;
+        margin-top: 115%;
+
+        position: absolute;
+    }
+    
+    .SquareButton{
+        position: absolute;
+        border: 0%;
+        background-color: #006EDB;
+        color:#ffffff;
+        width: 200px;
+        height: 42.5px;
+        margin-top: 134.5px;
+        margin-left: 50px;
+        font-family: 'Source Sans Pro', sans-serif;
+        
+    }
+    
+    .HamsterSeed {
+        position: absolute;
+        
+        width: 1369px;
+        height: 700px;
+        
+    }
+    }
+
+
+    @media screen and (max-width: 699px) {
+    
+        .Awards{
+            margin-left: 100%;
+            margin-top: -60%;
+        }
+        .Borders {
+            color: #000324;
+            background-color: #000324;
+            width: 85vh;  
+        }
+        .BottomBorder{
+            color: #000324;
+            background-color: #000324;
+            height: 350px;
+            width: 100vh;
+            margin-left: -3%;   
+        }
+        
+        .Background {
+            object-fit: cover;
+            justify-content: center;
+            min-width: 85vh;
+            height: 600px;
+        }
+        
+        .Background2{
+            object-fit: cover;
+            justify-content: center;
+            min-width: 100vh;
+            height: 350px;
+        }
+        
+        .InfoBox {
+            color: #E5FEFF;
+            opacity: 80%;
+            background-color: #000324;
+            position: absolute;
+            top: 250px;
+            left: 300px;
+            width: 500px;
+            height: 150px;
+            margin-left: -25%;
+        }
+        
+        .InfoBox2 {
+            color: #E5FEFF;
+            background-color: #000324;
+            position: absolute;
+            margin-right: 10%;
+            width: 1345px;
+            height: 225px;
+        }
+        
+        .InfoText {
+            text-align: center;
+            font-family: 'Dosis', sans-serif;
+            font-size: 45px;
+            letter-spacing: 0px;
+            color: #E5FEFF;
+            opacity: 1;
+            margin-top: 8%;
+        }
+        .InfoText2 {
+            text-align: center;
+            font-family: 'Dosis', sans-serif;
+            font-size: 45px;
+            letter-spacing: 0px;       
+            color: #E5FEFF;
+            opacity: 1;
+            margin-left: 30%;
+            position: absolute;
+        }
+    
+        .InfoText3 {
+            text-align: center;
+            font-family: 'Dosis', sans-serif;
+            font-size: 45px;
+            letter-spacing: 0px;       
+            color: #E5FEFF;
+            opacity: 1;
+            position: absolute;
+        }
+        
+        .InfoTextSmall{
+            text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+            letter-spacing: 0px;
+            color: #E5FEFF;
+            opacity: 1;
+            margin-top: 8%;
+            position: absolute;
+        }
+        
+        .FirstCard{
+            margin-left: -65%;
+            margin-top: 10%;
+            border: #00032400;
+            border-radius: 0%;
+            height: 59%;
+            width: 25%;
+            position:absolute;
+        }
+        .SecondCard{
+            margin-top: 10%;
+            border: #00032400;
+            border-radius: 0%;
+            height: 59%;
+            width: 25%;
+            margin-right: -0%;
+            position:absolute;
+        }
+        .ThirdCard{
+            margin-right: -65%;
+            margin-top: 10%;
+            height: 59%;
+            width: 30%;
+            border: #00032400;
+            border-radius: 0%;
+            position:absolute;
+        }
+        
+        .List{
+            align-self: flex-start ;
+        }
+        
+        .card-img-top {
+            width: 100%;
+            height: 10vw;
+            object-fit: none;
+        }
+        
+        .Header {
+            width: 100vh;
+            height: 400px;
+            object-fit: cover; 
+        } 
+    
+        .HamsterInfo{
+            margin-left: -60%;
+        }
+        
+        .Logo {
+            width: 185px;
+            height: 130px;
+            margin-top: 5px;
+        }
+        
+        .NavText {
+            color: #ffffff;
+            font-family: 'Dosis', sans-serif;
+            font-size: medium;
+        
+        }
+        
+        .a {
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #E5FEFF;
+            font-size: 16px;
+        }
+        
+        p {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        
+        .cropped {
+            width: 9vh;
+            height: 250px;
+            object-fit: cover;
+       
+            position: absolute;
+        }
+        
+        .PA {
+            position: absolute;
+        }
+        
+        .Packages{
+            height: 35vh;
+            width: 150vh;
+            object-fit: cover;
+            margin-left: 40%;
+        }
+        .Packages2{
+            height: 35vh;
+            width: 150vh;
+            object-fit: cover;
+            margin-left: 90%; 
+        }
+    
+        .PackagesText{
+            margin-left: 15%;
+            width: 50%;
+            position: absolute;
+        }
+    
+        .PackagesText2{
+            margin-left: 15%;
+            margin-top: 5%;
+            width: 50%;
+            position: absolute;
+        }
+    
+        .PackagesTextTitle{
+            margin-top:-3%
+        }
+        
+        .SourceSans {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        
+        .Dosis {
+            font-family: 'Dosis', sans-serif;
+        }
+        
+        .Amenities{
+            position: absolute;
+            margin-top: 25%;
+            width:150px;
+            height: 100px;
+        }
+        
+        .AmenitiesValet{
+            width: 120px; 
+            height: 130px;
+            margin-top: 22%;
+            position: absolute;
+            margin-left: 2%;
+        }
+        
+        .AmenitiesInfo{
+            text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+            letter-spacing: 1px;
+            color: #ffffff;
+            opacity: 1;
+            margin-top: 19%;
+            
+            white-space: nowrap;
+            position: absolute;
+            font-size: small;
+        }
+        
+        .StinkyInputField{
+            margin-top: 180%;
+            position:absolute;
+            border-radius: 0%;
+        }
+        
+        .ReserveRoom{
+            text-align: center;
+            font-family: 'Dosis', sans-serif;
+            letter-spacing: 1px;
+            color: #ffffff;
+            opacity: 1;
+            
+            margin-top: 1%;
+            white-space: nowrap;
+            position: absolute;
+        }
+    
+        .Reserve{
+            margin-left: 15%;
+        }
+        
+        .InputInfo{
+            text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+            letter-spacing: 1px;
+            color: #ffffff;
+            opacity: 1;
+            margin-top: 115%;
+    
+            position: absolute;
+        }
+        
+        .SquareButton{
+            position: absolute;
+            border: 0%;
+            background-color: #006EDB;
+            color:#ffffff;
+            width: 200px;
+            height: 42.5px;
+            margin-top: 134.5px;
+            margin-left: 50px;
+            font-family: 'Source Sans Pro', sans-serif;
+            
+        }
+        
+        .HamsterSeed {
+            position: absolute;
+            
+            width: 1369px;
+            height: 700px;
+            
+        }
+        }
